@@ -1,6 +1,6 @@
 # Artificial_Image_Generation
 
-- This project is to generate artificial image of numbers(0-9) from the MNIST dataset.
+- This project is to generate artificial image of numbers(0-9) (trained using the MNIST dataset).
 - Just run the code to generate the artificially generated number
 - One can change the number of epochs to get the result quicker but inaccurate.
 - noise = torch.randn(1, 100, device='cuda')  Random generation of the digit
@@ -10,4 +10,4 @@
 - pip install torch torchvision matplotlib numpy
  
 ### Try it
-- Load other datasets and get the image you want
+- Load other datasets and get the image you want by making necessary changes in the code
